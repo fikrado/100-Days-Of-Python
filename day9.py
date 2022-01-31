@@ -1,1 +1,2 @@
+from replit import clear
 
