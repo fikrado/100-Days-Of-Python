@@ -1,24 +1,28 @@
 from replit import clear
-print("stupid hame")
+from art import logo
+print(logo)
 
 bids = {}
-bidiing = False
+bidding_finished = False
 
-hb = 0
+def find_highest_bidder(bidding_record):
+  highest_bid = 0
+  winner = ""
+  # bidding_record = {"Angela": 123, "James": 321}
+  for bidder in bidding_record:
+    bid_amount = bidding_record[bidder]
+    if bid_amount > highest_bid: 
+      highest_bid = bid_amount
+      winner = bidder
+  print(f"The winner is {winner} with a bid of ${highest_bid}")
 
-def heigest_bifing(bir):
-  for i in bir:
-    amount = bir[i]
-    if amount > hb:
-      hb = amount
-
-
-while not bidiing:
-  name = input("what is your name ")
-  price = input("whats yout bit ")
+while not bidding_finished:
+  name = input("What is your name?: ")
+  price = int(input("What is your bid?: $"))
   bids[name] = price
-  contiune = input("are ther new biddings")
-  if contiune == "no":
-    bidiing = True
-  elif contiune == "yes":
+  should_continue = input("Are there any other bidders? Type 'yes or 'no'.\n")
+  if should_continue == "no":
+    bidding_finished = True
+    find_highest_bidder(bids)
+  elif should_continue == "yes":
     clear()
