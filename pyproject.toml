@@ -8,6 +8,7 @@ authors = ["fikrado <<>>"]
 python = "^3.8"
 replit = "^3.2.4"
 plane-war = "^1.0"
+prettytable = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 
