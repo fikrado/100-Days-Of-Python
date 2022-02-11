@@ -3,3 +3,4 @@ this i collaction of my daily 100 python code practies and learning the goals ar
 * learn writing scrips 
 * learn data science and vulize the data 
 * learn machine learning and build real word projectes
+* learn class 
