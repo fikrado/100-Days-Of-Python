@@ -154,6 +154,14 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "menu"
+version = "3.2.2"
+description = "Easily create command-line menus"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "multidict"
 version = "6.0.2"
 description = "multidict implementation"
@@ -271,7 +279,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "5f7778e1113d1f3d55bad87048bac0844a8ad3a3f19a7a27dae692112b478e18"
+content-hash = "d6618a359653f17170558e61f74abce055853360d42374701b091517601328aa"
 
 [metadata.files]
 aiohttp = [
@@ -523,6 +531,9 @@ markupsafe = [
     {file = "MarkupSafe-2.0.1-cp39-cp39-win32.whl", hash = "sha256:10f82115e21dc0dfec9ab5c0223652f7197feb168c940f3ef61563fc2d6beb74"},
     {file = "MarkupSafe-2.0.1-cp39-cp39-win_amd64.whl", hash = "sha256:693ce3f9e70a6cf7d2fb9e6c9d8b204b6b39897a2c4a1aa65728d5ac97dcc1d8"},
     {file = "MarkupSafe-2.0.1.tar.gz", hash = "sha256:594c67807fb16238b30c44bdf74f36c02cdf22d1c8cda91ef8a0ed8dabf5620a"},
+]
+menu = [
+    {file = "Menu-3.2.2.tar.gz", hash = "sha256:8143eeec772937d4adc80b5a451f827da3dcdc9b2a1f850b4734e5d5e50d3dc4"},
 ]
 multidict = [
     {file = "multidict-6.0.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:0b9e95a740109c6047602f4db4da9949e6c5945cefbad34a1299775ddc9a62e2"},
