@@ -1,4 +1,4 @@
-import turtle as turtle_module
+simport turtle as turtle_module
 import random
 
 turtle_module.colormode(255)
