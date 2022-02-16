@@ -1,1 +1,1 @@
-run = "node index.js"
+run = "python day20.py"
