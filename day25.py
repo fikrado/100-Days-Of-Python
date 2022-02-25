@@ -1,21 +1,35 @@
-import pandas as pd
+import turtle
+import pandas
 
-data = pd.read_csv("squarl.csv")
-sq = len(data[data["Primary Fur Color"] == "Gray"])
-print(sq)
-sq1 = len(data[data["Primary Fur Color"] == "Cinnamon"])
-print(sq1)
-sq2 = len(data[data["Primary Fur Color"] == "Black"])
-print(sq2)
+screen = turtle.Screen()
+screen.title("U.S. States Game")
+image = "blank_states_img.gif"
+screen.addshape(image)
+turtle.shape(image)
 
-data_dic = {
-    "Fur Color": ["Gray", "Cinnamon", "Black"],
-    "Count": [sq, sq1, sq2]
+data = pandas.read_csv("50_states.csv")
+all_states = data.state.to_list()
+guessed_states = []
 
-}
-df = pd.DataFrame(data_dic)
-df.to_csv("new.csv")
-
+while len(guessed_states) < 50:
+    answer_state = screen.textinput(title=f"{len(guessed_states)}/50 States Correct",
+                                    prompt="What's another state's name?").title()
+    if answer_state == "Exit":
+        missing_states = []
+        for state in all_states:
+            if state not in guessed_states:
+                missing_states.append(state)
+        new_data = pandas.DataFrame(missing_states)
+        new_data.to_csv("states_to_learn.csv")
+        break
+    if answer_state in all_states:
+        guessed_states.append(answer_state)
+        t = turtle.Turtle()
+        t.hideturtle()
+        t.penup()
+        state_data = data[data.state == answer_state]
+        t.goto(int(state_data.x), int(state_data.y))
+        t.write(answer_state)
 
 
 
