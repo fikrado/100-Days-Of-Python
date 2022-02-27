@@ -1,4 +1,4 @@
-#python #p100
+#python
 
 
 # MY NOTES FOR 100 DAYS OF LEARN PYTHON 
