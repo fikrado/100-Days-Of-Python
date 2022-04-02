@@ -1,8 +1,10 @@
 # MY NOTES FOR 100 DAYS OF LEARN PYTHON 
+#python #100-day-of-code
 
 ### YOU WILL SEE IN THE GITHUB REPO MY JURNAY TO MASTER PYTHON PROGRAMING LAUNGUE 
 
-# ffffff
+
+
 
 ## KEY TAKE AWAY 
 
@@ -43,10 +45,11 @@ print("b: " + b)
 
 ``````
 
+
 # Day2
 
-#python #p100
-# Data type 
+
+### Data type 
 
 ### stirings
 is word data type
@@ -325,20 +328,110 @@ it was great
 * funstion 
 * classes
 * turtle
+
+
 # Day24
+## to day outcome
+* to day i have learn how to open file
+* how to write in file 
+* how to get impot for may snake gam
+
+> to day i have had time of understandin
+>  thet is no prefet code their prefet thinking
+>   if use `./` to go back to other files in python 
+
+
 # Day25
+## today out come 
+> today i have lear `pandas` the python liybory that work with data and data scince it amazing i just h
+
+#### day project
+*to day i hade to build a gui quize game thar can get data from cvsa and pandas take data like list then build gui wirh turtul check the code man it was amsainf man *
+
+
 # Day26
+## to day out come 
+__to day i have lear more about pandas and it was fantastic  __
+* first i learn how to short the python for loop
+
+##### list comrestion 
+i have made list soo small with list compretion like this `new_list = [item for item in old_list if iteam % 2 == 0`
+
+##### dictory comrestion
+list dic can be shorter like `n_dic = {valu:key for (valu, key) in o_dic if vale == o_dic`
+
+
 # Day27
+## day out put 
+> to day i have learn how to use the python tkinter laybory and it more advanced form the 
+> tur turtul , tk have more wedget and i bul gui app that mitor the distance for more info or the code pleace check the day27.py code 
+
+### advance fuction 
+* i have learn how to  use unlimited arg in in fuction like `def add(*args):` like that i have make the fuction with unlimted argments
+* also if you want unlimited key arg u can make it like :-
+```
+class main:
+	def __init__(self, **kwrg):
+		self.model = kwrg["model"]
+		self.make = kwrg["make"]
+
+    
+
+```
+	
+
+
 # Day28
+## day out come
+>*to day i have learn more about the python tkinter i have build pomadorto app 🍅 it was fantastic i use many of the fuctionalithy of the math labory *
+
+* python math labory for clean round number insted of using the round fuction
+* canvis can be configure with a tab like `canvis.config("the canvis name", "what to change")`
+* i have also learn some maths with python as not a maths guy 
+
+
+
 # Day29
+## Day out come 
+> to day i have improve may experians of tkinter and i have created a new
+> app  a password manger it was fun
+> 
+
+* i have made roundom massword genarator 
+* i learn `.join` that join all things in list dic or tuple 
+* i have learn more about canvas in tk inter
+
+
+ 
 # Day30
+## day outcome 
+_*to day i have come to one month of python i will try what i have learn and i will use some of my new skills *_
+
+#### error and exptions 
+* you can test if some code will return and error by using try 
+* except works if the try code not working buy telling the error  like `exept KeyError`
+* else if the above not working else will continue 
+* finally will countinue what ever is it 
+* rise will let us use aur own exeptions and it will raise as owar error 
+### Json
+* json is fansy data formate that oroginaly disine fot javascript 
+* it one of the best trasform data in all network
+* python have built in json laypory
+
 # Day31
-# Day32
-# Day33
-# Day34
-# Day35
-# Day36
+## day out come
+> to day i have learn more about cvs and pandas 
+> i created a freanch to english guss game it was fun 
+
+* more fimilar with csv and pandas
+* useing my yesterday learning about eror hundaling
+
+
 # Day37
+## Api and Requeast
+> requeast is http cleint for python it hepl you to over come any internet tool 
+> it makes esay to scrap web sites and api is some code that give by web aplication or make easy to use an certain tool 
+
 # Day38
 # Day39
 # Day40
