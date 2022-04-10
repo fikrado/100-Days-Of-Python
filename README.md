@@ -1,7 +1,7 @@
 # MY NOTES FOR 100 DAYS OF LEARN PYTHON 
 #python #100-day-of-code
 
-### YOU WILL SEE IN THE GITHUB REPO MY JURNAY TO MASTER PYTHON PROGRAMING LAUNGUE 
+### YOU WILL SEE IN THE GITHUB  MY JURNAY TO MASTER PYTHON PROGRAMING LAUNGUE 
 
 
 
@@ -403,8 +403,7 @@ class main:
 
 
  
-# Day30
-## day outcome 
+# Day30day outcome 
 _*to day i have come to one month of python i will try what i have learn and i will use some of my new skills *_
 
 #### error and exptions 
