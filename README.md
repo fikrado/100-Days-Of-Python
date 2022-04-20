@@ -18,7 +18,7 @@
 len is python obrator that shows the number of word in stored value
 🚨 Don't change the code below 👇
 
-
+d
 
 a = input("a: ")
 b = input("b: ")
