@@ -1,14 +1,14 @@
 # MY NOTES FOR 100 DAYS OF LEARN PYTHON 
 #python #100-day-of-code
 
-### YOU WILL SEE IN THE GITHUB  MY JURNAY TO MASTER PYTHON PROGRAMING LAUNGUE 
+### YOU WILL SEE IN THE GITHUB REPO MY JURNAY TO MASTER PYTHON PROGRAMING LAUNGUE 
 
 
 
 
 ## KEY TAKE AWAY 
 
-> in this note i have mention  each day wat i have been learning and i commint a new file in this repo every day in this long 100 days i side loge in this time my i have to work and atend my university in nighboar country ethiopia  yeah i study it as pro ficition and my key to learn pyhton was to help me in my it profiction and to improve my skills as and ehtical hacker . 
+> in this note i have mention in each day wat i have been learning and i commint a new file in this repo every day in this long 100 days i side loge in this time my i have to work and atend my university in nighboar country ethiopia  yeah i study it as pro ficition and my key to learn pyhton was to help me in my it profiction and to improve my skills as and ehtical hacker . 
 
 
 
@@ -18,7 +18,7 @@
 len is python obrator that shows the number of word in stored value
 🚨 Don't change the code below 👇
 
-d
+
 
 a = input("a: ")
 b = input("b: ")
@@ -371,14 +371,14 @@ list dic can be shorter like `n_dic = {valu:key for (valu, key) in o_dic if vale
 * also if you want unlimited key arg u can make it like :-
 ```
 class main:
-	def __init__(self, **kwrg):
-		self.model = kwrg["model"]
-		self.make = kwrg["make"]
+        def __init__(self, **kwrg):
+                self.model = kwrg["model"]
+                self.make = kwrg["make"]
 
     
 
 ```
-	
+
 
 
 # Day28
@@ -403,7 +403,8 @@ class main:
 
 
  
-# Day30day outcome 
+# Day30
+## day outcome 
 _*to day i have come to one month of python i will try what i have learn and i will use some of my new skills *_
 
 #### error and exptions 
@@ -431,11 +432,15 @@ _*to day i have come to one month of python i will try what i have learn and i w
 > requeast is http cleint for python it hepl you to over come any internet tool 
 > it makes esay to scrap web sites and api is some code that give by web aplication or make easy to use an certain tool 
 
-# Day38
-# Day39
-# Day40
+
 # Day41
+> to day i have learn a simple html and css how internet work it great expriance for me 
+> in my rode for developed an exprieance wirh programing
 # Day42
+#### to day i have enterduce to
+* html tableas
+* some more advance html codeing
+
 # Day43
 # Day44
 # Day45
@@ -494,4 +499,3 @@ _*to day i have come to one month of python i will try what i have learn and i w
 # Day98
 # Day99
 # Day100
-
