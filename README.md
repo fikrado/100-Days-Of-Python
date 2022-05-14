@@ -10,7 +10,7 @@ a
 
 > in this note i have mention in each day wat i have been learning and i commint a new file in this repo every day in this long 100 days i side loge in this time my i have to work and atend my university in nighboar country ethiopia  yeah i study it as pro ficition and my key to learn pyhton was to help me in my it profiction and to improve my skills as and ehtical hacker . 
 
-
+R
 
 # DAY 1
 # shortcuts
