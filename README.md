@@ -3,14 +3,14 @@
 
 ### YOU WILL SEE IN THE GITHUB REPO MY JURNAY TO MASTER PYTHON PROGRAMING LAUNGUE 
 
-a
+
 
 
 ## KEY TAKE AWAY 
 
 > in this note i have mention in each day wat i have been learning and i commint a new file in this repo every day in this long 100 days i side loge in this time my i have to work and atend my university in nighboar country ethiopia  yeah i study it as pro ficition and my key to learn pyhton was to help me in my it profiction and to improve my skills as and ehtical hacker . 
 
-R
+
 
 # DAY 1
 # shortcuts
@@ -371,14 +371,14 @@ list dic can be shorter like `n_dic = {valu:key for (valu, key) in o_dic if vale
 * also if you want unlimited key arg u can make it like :-
 ```
 class main:
-        def __init__(self, **kwrg):
-                self.model = kwrg["model"]
-                self.make = kwrg["make"]
+	def __init__(self, **kwrg):
+		self.model = kwrg["model"]
+		self.make = kwrg["make"]
 
     
 
 ```
-
+	
 
 
 # Day28
@@ -441,36 +441,26 @@ _*to day i have come to one month of python i will try what i have learn and i w
 * html tableas
 * some more advance html codeing
 
-# Day43
-# Day44
-# Day45
-# Day46
-# Day47
-# Day48
-# Day49
-# Day50
-# Day51
-# Day52
-# Day53
-# Day54
-# Day55
-# Day56
-# Day57
-# Day58
-# Day59
-# Day60
-# Day61
-# Day62
-# Day63
-# Day64
-# Day65
-# Day66
-# Day67
-# Day68
-# Day69
-# Day70
-# Day71
+
 # Day72
+
+```
+-   used `.groupby()` to explore the number of posts and entries per programming language
+    
+-   converted strings to Datetime objects with `to_datetime()` for easier plotting
+    
+-   reshaped our DataFrame by converting categories to columns using `.pivot()`
+    
+-   used `.count()` and `isna().values.any()` to look for NaN values in our DataFrame, which we then replaced using `.fillna()`
+    
+-   created (multiple) line charts using `.plot()` with a for-loop
+    
+-   styled our charts by changing the size, the labels, and the upper and lower bounds of our axis.
+    
+-   added a legend to tell apart which line is which by colour
+    
+-   smoothed out our time-series observations with `.rolling().mean()` and plotted them to better identify trends over time.
+```
 # Day73
 # Day74
 # Day75
@@ -499,3 +489,4 @@ _*to day i have come to one month of python i will try what i have learn and i w
 # Day98
 # Day99
 # Day100
+
